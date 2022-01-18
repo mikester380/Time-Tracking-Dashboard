@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="time-tracker">
+    <header class="user">
+      <div class="user__about">
+        <img src="images/image-jeremy.png" alt="user's image" class="user__image">
+        <div>
+          <p class="user__description">
+            Report for
+          </p>
+          <h1 class="user__name">
+            Jeremy Robson
+          </h1>
+        </div>
+      </div>
+      <div class="user__card-filters">
+        <p class="user__card-filter user__card-filter-active" data-filter="daily">
+          Daily
+        </p>
+        <p class="user__card-filter" data-filter="weekly">
+          Weekly
+        </p>
+        <p class="user__card-filter" data-filter="monthly">
+          Monthly
+        </p>
+      </div>
+    </header>
+    <main class="time-cards"></main>
+  </div>
+
+  <div class="attribution">
+      Coded by <a href="https://www.frontendmentor.io/profile/mikester380">Mikestaarr</a>
+  </div>
+<script src="js/script.js"></script>
+</body>
+</html>
