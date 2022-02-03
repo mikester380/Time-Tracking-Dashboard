@@ -5,7 +5,7 @@
 const cardsContainer = document.querySelector('.time-cards');
 const filtersContainer = document.querySelector('.user__card-filters');
 const filters = document.querySelectorAll('.user__card-filter')
-const url = '../data.json';
+const url = 'js/data.json';
 
 //Function to display cards to the screen
 
